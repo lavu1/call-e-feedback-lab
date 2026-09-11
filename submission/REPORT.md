@@ -1,6 +1,6 @@
-# CALL-E feedback report draft
+# CALL-E documentation feedback report
 
-**Status:** Reviewable local draft. One documentation issue is confirmed. CALL-E
+**Status:** Public, reviewable documentation report. One documentation issue is confirmed. CALL-E
 account/API/call claims are withheld because credentials and a consenting recipient
 were not available.
 
@@ -134,13 +134,11 @@ Suggested change: add a short feedback/evaluation recipe with a no-call smoke te
 one consented call, an ambiguous-answer schema, recovery steps and a sanitized
 evidence template.
 
-## Access blockers and next evidence
+## Documentation-only entry
 
-The next valid step requires a CALL-E project API key plus a specific consenting
-recipient in a currently supported destination. After those are supplied, run the
-documented protocol and replace this section with exact authenticated setup results,
-the terminal Call ID trace, expected versus actual structured output, and manually
-sanitized evidence. Do not add a runtime defect unless it is actually reproduced.
+The official feedback form explicitly permits “None - documentation review only.” This report uses that route. No API key or phone call is required to support the documentation finding. Authenticated API testing would be a separate future activity requiring access and a consenting recipient; it is not claimed here.
+
+Public source and evidence: https://github.com/lavu1/call-e-feedback-lab
 
 ## Survey completion note
 

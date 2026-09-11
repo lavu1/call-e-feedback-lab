@@ -1,8 +1,7 @@
 # Publication status
 
-Prepared for https://github.com/lavu1/call-e-feedback-lab.
+Public source: https://github.com/lavu1/call-e-feedback-lab
 
-Source verification: focused local test suite passed on 11 September 2026.
+GitHub upload verified on 11 September 2026. 5 automated local tests passed; GitHub workflow: https://github.com/lavu1/call-e-feedback-lab/actions
 
-GitHub push: pending.
-Devpost submission: not submitted.
+Devpost submission: **not submitted**. Required event agreement and entry-specific information remain pending.
