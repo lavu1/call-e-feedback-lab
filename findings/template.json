@@ -1,0 +1,24 @@
+{
+  "status": "template_not_a_finding",
+  "title": "",
+  "category": "bug_or_documentation_or_suggestion",
+  "tested_at": null,
+  "environment": {
+    "integration": "",
+    "version": "",
+    "operating_system": ""
+  },
+  "preconditions": [],
+  "steps": [],
+  "expected": "",
+  "actual": "",
+  "reproducibility": {
+    "attempts": 0,
+    "reproduced": 0
+  },
+  "impact": "",
+  "suggested_change": "",
+  "sanitized_evidence": [],
+  "limitations": []
+}
+

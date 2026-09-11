@@ -1,0 +1,23 @@
+{
+  "evidence_version": 1,
+  "kind": "local-harness-tests",
+  "started_at": "2026-09-11T19:10:40.356Z",
+  "finished_at": "2026-09-11T19:10:40.569Z",
+  "command": "node --test test/harness.test.mjs",
+  "environment": {
+    "node": "v24.12.0",
+    "platform": "darwin",
+    "os_release": "25.6.0"
+  },
+  "scope": {
+    "network_target": "loopback-only mock HTTP servers",
+    "official_call_e_api_contacted": false,
+    "live_phone_call_placed": false,
+    "mock_data_used": true
+  },
+  "exit_code": 0,
+  "signal": null,
+  "spawn_error": null,
+  "stdout": "✔ doctor reports missing access without making a request (0.366833ms)\n✔ live create is blocked before fetch when consent acknowledgement is absent (0.234625ms)\n✔ authorized create sends the documented endpoint, auth, idempotency, and strict schema (38.802584ms)\n✔ stable API error envelopes remain available to the evidence layer (5.151666ms)\n✔ sanitizer removes credentials, phone numbers, and email addresses (0.38325ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 158.942875\n",
+  "stderr": ""
+}

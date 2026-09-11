@@ -1,0 +1,20 @@
+{
+  "name": "CALL-E Feedback Lab",
+  "slug": "02-call-e-feedback-lab",
+  "status": "local_harness_ready_access_blocked",
+  "kind": "feedback",
+  "event": {
+    "name": "CALL-E: Your Code Is Calling - Most Valuable Feedback",
+    "url": "https://call-e.devpost.com/",
+    "rules": "https://call-e.devpost.com/rules",
+    "track": "Most Valuable Feedback (individual award)",
+    "feedback_deadline": "2026-09-18T17:45:00+02:00",
+    "project_deadline": "2026-09-14T17:45:00+02:00",
+    "checked_at": "2026-09-11"
+  },
+  "eligibility": "Entrant must confirm adult/territory eligibility and register for the Devpost hackathon. Feedback-only entries use the feedback survey and are limited to one per entrant.",
+  "estimated_remaining_effort": "3-5 hours of account-backed testing and report preparation after access works.",
+  "integration": "CALL-E Developer API via native Node fetch",
+  "database": null,
+  "live_test_completed": false
+}

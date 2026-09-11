@@ -1,0 +1,40 @@
+{
+  "synthetic": true,
+  "reference_date": "2026-09-11",
+  "execution_status": "partial_local_only",
+  "scenarios": [
+    {
+      "id": "local-harness",
+      "description": "Exercise guard, request, error and redaction behavior against loopback-only mock servers.",
+      "status": "passed_loopback_only",
+      "proves": "local harness behavior only",
+      "evidence": "evidence/local-harness-tests.json"
+    },
+    {
+      "id": "sdk-version-documentation",
+      "description": "Compare the official integrations README's current TypeScript SDK version with public npm registry metadata.",
+      "status": "confirmed_documentation_issue",
+      "evidence": "evidence/sdk-version-check.json"
+    },
+    {
+      "id": "authenticated-setup",
+      "description": "Use the documented read-only authentication check with an authorized project key.",
+      "status": "not_run_missing_api_key"
+    },
+    {
+      "id": "normal-call",
+      "description": "Complete one fictional supplier-availability role-play with a specific consenting test recipient.",
+      "status": "not_run_missing_access_and_recipient"
+    },
+    {
+      "id": "ambiguous",
+      "description": "Ask the consenting role-play recipient to give an unclear answer and inspect whether the structured result remains unknown.",
+      "status": "not_run_missing_access_and_recipient"
+    },
+    {
+      "id": "failure",
+      "description": "Inspect a naturally failed or interrupted authorized call and compare its fields with documented retry guidance.",
+      "status": "not_run_missing_access_and_recipient"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "evidence_version": 1,
+  "kind": "official-sdk-version-comparison",
+  "observed_at": "2026-09-11T18:17:06.353Z",
+  "command": "npm view @call-e/calle version engines dist-tags --json",
+  "sources": {
+    "documented_claim": "https://github.com/CALLE-AI/call-e-integrations#sdk",
+    "package_registry": "https://www.npmjs.com/package/@call-e/calle"
+  },
+  "documented_current_version": "0.2.0",
+  "registry_latest_version": "0.7.0",
+  "comparison": "mismatch",
+  "limitations": [
+    "This verifies public documentation and registry metadata only.",
+    "No SDK method, authenticated API request, or phone call was executed."
+  ]
+}

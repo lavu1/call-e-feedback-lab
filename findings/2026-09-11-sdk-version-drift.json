@@ -1,0 +1,40 @@
+{
+  "status": "confirmed_documentation_issue",
+  "title": "Official integrations README labels SDK 0.2.0 as current while npm latest is 0.7.0",
+  "category": "documentation",
+  "tested_at": "2026-09-11",
+  "environment": {
+    "integration": "public CALL-E integrations README and npm registry metadata",
+    "version": "README claim 0.2.0; npm latest 0.7.0",
+    "operating_system": "macOS 26.6.2; Darwin 25.6.0; Node v24.12.0; npm 11.6.2"
+  },
+  "preconditions": [
+    "Public internet access",
+    "npm CLI or direct access to the public npm registry"
+  ],
+  "steps": [
+    "Open https://github.com/CALLE-AI/call-e-integrations and locate the SDK section.",
+    "Observe the Current server SDK packages label for @call-e/calle@0.2.0.",
+    "Run npm view @call-e/calle version engines dist-tags --json.",
+    "Compare the documented current version with the latest registry version."
+  ],
+  "expected": "A package explicitly labeled current in the official setup README matches the registry's latest stable release, or the documentation explains why it intentionally points to an older release.",
+  "actual": "The README identifies @call-e/calle@0.2.0 as current, while the npm registry returned latest version 0.7.0 on 2026-09-11.",
+  "reproducibility": {
+    "attempts": 1,
+    "reproduced": 1
+  },
+  "impact": "A developer following the unpinned install command receives 0.7.0 while the adjacent version statement sets expectations for 0.2.0. This makes setup reports and API-surface troubleshooting harder to compare.",
+  "suggested_change": "Generate the displayed version from release metadata, replace the hard-coded version with a latest-stable link, or state that the number is an intentionally tested baseline rather than the current package version.",
+  "sanitized_evidence": [
+    "evidence/sdk-version-check.json",
+    "https://github.com/CALLE-AI/call-e-integrations#sdk",
+    "https://www.npmjs.com/package/@call-e/calle"
+  ],
+  "limitations": [
+    "This finding concerns public version metadata only.",
+    "No SDK method or authenticated CALL-E API behavior was tested.",
+    "Registry metadata can change after the recorded timestamp."
+  ]
+}
+
